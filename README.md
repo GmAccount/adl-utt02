@@ -1,5 +1,4 @@
-# test01
-# adl-utt
+# adl-utt Fitrage des clients sur un cluster on-premise
 
 ### start celery worker
 cd /home/hadoop/userapi;/usr/local/bin/celery  -A tasks worker --loglevel=INFO 
