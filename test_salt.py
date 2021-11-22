@@ -1,6 +1,0 @@
-
-list_servers = ['serv66296','serv66650','serv66971','serv67526','serv67630','serv67880','serv68867','serv67897','serv68383','serv68942','serv68981','serv69060','serv69023','serv69013','serv68885','serv68570','serv68566','serv68174','serv68047','serv67769','serv67597','serv67529','serv67051','serv66992','serv66918','serv66816','serv66762','serv67270','serv68570','serv68174','serv68047','serv67529','serv68708','serv68691','serv68650','serv68454','serv68427','serv67092','serv65872','serv64079','serv64030','serv65852','serv68998','serv57997','serv68691','serv65852','serv68998','serv60705','serv65892','serv66392','serv66763','serv67760','serv68345','serv68384','serv68651','serv68692','serv69014','serv69024','serv69061','serv69067','serv63480','serv65779','serv66867','serv68591','serv69069','serv67749','serv68046','serv67914','serv68063','serv67525','serv67872','serv68886','serv69020','serv69062','serv67840','serv69134','serv63308','serv66953','serv67541','serv68116','serv68764','serv69011','serv61985','serv64853','serv67228','serv69063','serv68652','serv68197','serv68129','serv67300','serv67077','serv66760','serv66099','serv65875','serv65645','serv64087','serv61324','serv61066']
-for srv in list_servers:
-
-    cmd = "salt-cp "+srv+" /tmp/vmta_tempo/"+srv+"/  /etc/pmta/"
-    print(cmd)
